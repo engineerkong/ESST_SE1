@@ -1,0 +1,8 @@
+[submodule "src/autorl"]
+	path = src/autorl
+	url = https://github.com/engineerkong/Master_Thesis
+	branch = autorl-landscape3.8
+[submodule "src/mygym"]
+	path = src/mygym
+	url = https://github.com/engineerkong/Master_Thesis
+	branch = mygym_train
