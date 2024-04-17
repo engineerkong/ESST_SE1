@@ -20,5 +20,3 @@ RUN conda run -n SE1 pip install -r requirements.txt
 RUN conda run -n SE1 pip install -e ./src/mygym/
 RUN conda run -n SE1 pip install -e ./src/autorl/
 RUN conda init
-CMD conda activate SE1
-CMD phases run combo=sac_mygym_test ls=sac slurm=debug phases=quick task=mygym_sac num_confs=1 num_seeds=1 wandb.entity=entity_name wandb.project=project_name wandb.experiment_tag=experiment_tag
