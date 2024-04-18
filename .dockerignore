@@ -1,0 +1,9 @@
+.vscode/
+phase_results/
+runs/
+submitit/
+__pycache__/
+*.egg-info/
+trained_models/
+outputs/
+wandb/
