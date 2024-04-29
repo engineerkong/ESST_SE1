@@ -1,3 +1,7 @@
+*.pyc
+*.bak
+*.swp
+*.log
 .vscode/
 phase_results/
 runs/
@@ -7,3 +11,4 @@ __pycache__/
 trained_models/
 outputs/
 wandb/
+figures/

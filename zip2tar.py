@@ -1,3 +1,8 @@
+"""
+This file transfers SB3 stored .zip model file to TORCH stored .pth.tar file.
+Kong/29.04.2024
+"""
+
 import torch
 import os
 from stable_baselines3 import SAC
